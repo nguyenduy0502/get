@@ -1,0 +1,3 @@
+#: 404.php:17
+msgid "Not Found"
+msgstr ""
