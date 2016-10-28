@@ -6,6 +6,8 @@
  * Description:
  */
 ?>
+<?php global $asite_options;?>
+<?php if(!empty($asite_options['opt_breaking_news']) && isset($asite_options['opt_breaking_news'])):?>
 <div class="breaking-news">
 	<h3>Breaking News</h3>
 	<?php $args=array(
@@ -26,3 +28,5 @@
 <?php wp_reset_query();?>
 	</ul>
 </div>
+<?php else: ?>
+<?php endif;;?>

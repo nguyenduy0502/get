@@ -163,5 +163,3 @@
 	</header>
 
 <?php get_template_part('includes/navigations/main'); // get template main navigation ?>
-
-
